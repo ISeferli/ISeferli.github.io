@@ -1,0 +1,7 @@
+{
+  "name": "Gemini-Powered Game Dev Portfolio",
+  "description": "A high-performance React portfolio for game developers featuring a project showcase, smooth navigation, and an integrated Gemini AI Game Consultant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
