@@ -5,9 +5,15 @@ import { StarSeparator, COLORS } from '../constants';
 const About: React.FC = () => {
   return (
     <section id="about" className="py-24" style={{ backgroundColor: COLORS.primary }}>
-      <div className="container mx-auto px-4">
-        <h2 className="text-center text-4xl md:text-5xl font-bold text-white mb-4">ABOUT</h2>
-        <StarSeparator light />
+      <div className="container mx-auto px-4 max-w-4xl">
+
+        <div className="mb-12">
+          <h2 className="text-2xl md:text-5xl font-bold text-white mb-3">About</h2>
+          <div
+            className="h-0.5 bg-[#B5A8D5] animate-expand-line"
+            style={{ transformOrigin: 'left' }}
+          />
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white text-lg mt-12 max-w-4xl mx-auto leading-relaxed">
           <p>

@@ -15,7 +15,16 @@
         }
         h1, h2, h3, .nav-link {
             font-family: 'Montserrat', sans-serif;
-            text-transform: uppercase;
+        }
+
+        @keyframes expand-line {
+            from { transform: scaleX(0); }
+            to   { transform: scaleX(1); }
+        }
+
+        .animate-expand-line {
+            transform-origin: left;
+            animation: expand-line 0.8s ease-out forwards;
         }
     </style>
 <script type="importmap">
