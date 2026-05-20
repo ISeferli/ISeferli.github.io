@@ -104,19 +104,19 @@ const ProjectPage = () => {
 
             {/* Right: Metadata & Tech Sidebar */}
             <div className="lg:col-span-4 space-y-8">
-              <div className="bg-[#211C84] text-white rounded-3xl p-8 sticky top-24">
+              <div className="bg-[#211C84] text-white rounded-3xl p-10 sticky top-24">
                 <h4 className="text-[#B5A8D5] font-bold uppercase tracking-widest text-sm mb-6">Project Metadata</h4>
                 <div className="space-y-6">
                   <div>
                     <span className="block text-[#B5A8D5] text-xs uppercase mb-1">Category</span>
-                    <p className="text-lg font-bold">{project.category}</p>
+                    <p className="text-lg font-bold mb-2">{project.category}</p>
                     <div>
                       <span className="block text-[#B5A8D5] text-xs uppercase mb-1">Project Type</span>
-                      <p className="text-lg font-bold">{project.group}</p>
+                      <p className="text-lg font-bold mb-2">{project.group}</p>
                     </div>
                     <div>
                       <span className="block text-[#B5A8D5] text-xs uppercase mb-1">Tech Stack</span>
-                      <div className="flex flex-wrap gap-2 mt-2">
+                      <div className="flex flex-wrap gap-2 mt-2 mb-2">
                         {project.tech.map(t => (
                           <span key={t} className="px-3 py-1 bg-[#211C84] text-[#B5A8D5] border border-[#B5A8D5]/30 rounded-lg text-xs font-bold uppercase">
                             {t}
@@ -126,7 +126,7 @@ const ProjectPage = () => {
                     </div>
                     
                     <div>
-                      <span className="block text-[#B5A8D5] text-xs uppercase mb-1">Project Roles</span>
+                      <span className="block text-[#B5A8D5] text-xs uppercase mb-1 mt-1">Project Roles</span>
                       <div className="flex flex-wrap gap-2 mt-2">
                         {project.roles.map(t => (
                           <span key={t} className="px-3 py-1 bg-[#211C84] text-[#B5A8D5] border border-[#B5A8D5]/30 rounded-lg text-xs font-bold uppercase">

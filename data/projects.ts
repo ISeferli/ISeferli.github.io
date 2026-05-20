@@ -108,4 +108,163 @@ export const projects: Project[] = [
         'Scene Transitions',
     ]
   },
+  {
+    id: '4',
+    title: 'Starting Dreams',
+    category: 'Puzzle, Atmospheric',
+    description: 'Game that was created in 7 days for the theme Strange Places, Brackeys Game Jam 2026.1.',
+    imageUrl: '/sdreamslogo.png',
+    tech: ['Unity', 'C#'],
+    screenshots: [
+        '/sdreams/bRQNGy.png',
+        '/sdreams/oqzAWB.png'
+      ],
+    reason: 'Game Jam',
+    readmeUrl: '/readmes/sdreams.md',
+    gameUrl: 'https://iseferli.itch.io/starting-dreams',
+    group: 'Group Project',
+    roles: [
+      'Programming & Game Systems',
+      'Game Design'
+    ],
+    devDescription: 'Starting Dream is created in 7 days for the Brackeys Game Jam 2026.1. All assets throughout gameplay, except Audio, are created by the talented Panagiotis Mastakas. This is a first collaboration together from knowing each other for so long, and it has a special position in heart. It is an environmental puzzle experience about how everyday life shapes our emotions and thoughts. The main focus was making an atmospheric game.',
+    features: [
+      'Pick up, carry, and place items to find solutions and progress through the game.',
+      'Store and manage collected objects to use them when needed during puzzle sequences',
+      'Explore immersive environments designed to create reflective moments through visual storytelling',
+      'Carefully crafted lighting and ambience for each scene to have a different visual effect',
+      'Fully original handcrafted 3D models and environmental assets created specifically for the game'
+    ],
+    featuresTitle: [
+        'Object Interaction System',
+        'Inventory System',
+        'Atmospheric Exploration',
+        'Environmental Design',
+        'Original 3D Assets'
+    ]
+  },
+  {
+    id: '5',
+    title: 'Glyph Input Dialogue',
+    category: 'System',
+    description: 'Project in Unity (C#) that implements a dialogue box system that handles a dynamic input glyph rendering.',
+    imageUrl: '/glyphlogo.png',
+    tech: ['Unity', 'C#'],
+    screenshots: [
+      '/glyph/glyph1.png',
+      '/glyph/glyph2.png',
+      '/glyph/glyph3.png',
+    ],
+    reason: 'Project Study Case',
+    readmeUrl: '',
+    gameUrl: 'https://github.com/ISeferli/Glyph_Input_Dialogue',
+    group: 'Solo Project',
+    roles: [
+      'Programming & Game Systems',
+    ],
+    devDescription: 'This project implements a simple dialogue interaction system used in narrative-driven games. The main goal is to make dynamically changes in the dialogue text when the input system changes from Controller to Keyboard. The system is built around a structure where dialogue data is stored in ScriptableObjects and processed through a manager that communicates with the UI.',
+    features: [
+      'Created an interactive dialogue box with custom fonts and UI elements for better visuals.',
+      'Created a manager of the progression of the dialogue entries that connects the dialogue coming from Scriptable Objects data to the UI',
+      'Each dialogue entry appears on screen with a typewriting effect. The speed variables are handled in Inspector to avoid hardcoding inputs',
+      'Implemented a system where when glyph icons are detected that need to be added, it automatically displays the icon attributed to that specific name',
+      'Detecing the current input device, using Unity’s new Input System.'
+    ],
+    featuresTitle: [
+      'Dialogue UI',
+      'Dialogue System',
+      'Typewriter Effect',
+      'Inline Input Glyph',
+      'Input System',
+    ]
+  },
+  // {
+  //   id: '6',
+  //   title: 'Axe Rush',
+  //   category: 'Puzzle',
+  //   description: '',
+  //   imageUrl: '',
+  //   tech: ['C++'],
+  //   screenshots: [
+  //   ],
+  //   reason: 'Project Study Case',
+  //   readmeUrl: '',
+  //   gameUrl: '',
+  //   group: 'Solo Project',
+  //   roles: [
+  //     'Programming & Game Systems',
+  //   ],
+  //   devDescription: '',
+  //   features: [
+  //   ],
+  //   featuresTitle: [
+  //   ]
+  // },
+  // {
+  //   id: '7',
+  //   title: 'Fighting Hues',
+  //   category: 'Rogue-Like',
+  //   description: '',
+  //   imageUrl: '',
+  //   tech: ['Unity', 'C#'],
+  //   screenshots: [
+  //   ],
+  //   reason: 'Ubisoft Mentorship',
+  //   readmeUrl: '',
+  //   gameUrl: '',
+  //   group: 'Solo Project',
+  //   roles: [
+  //     'Programming & Game Systems',
+  //     'Game Design'
+  //   ],
+  //   devDescription: '',
+  //   features: [
+  //   ],
+  //   featuresTitle: [
+  //   ]
+  // },
+  // {
+  //   id: '8',
+  //   title: 'Rage Havoc',
+  //   category: 'VR',
+  //   description: '',
+  //   imageUrl: '',
+  //   tech: ['Unity', 'C#', 'VR'],
+  //   screenshots: [
+  //   ],
+  //   reason: 'Project Study Case',
+  //   readmeUrl: '',
+  //   gameUrl: '',
+  //   group: 'Solo Project',
+  //   roles: [
+  //     'Programming & Game Systems',
+  //   ],
+  //   devDescription: '',
+  //   features: [
+  //   ],
+  //   featuresTitle: [
+  //   ]
+  // },
+  // {
+  //   id: '9',
+  //   title: 'Split Screen',
+  //   category: 'Adventure, Split Screen',
+  //   description: '',
+  //   imageUrl: '',
+  //   tech: ['Unity', 'C#'],
+  //   screenshots: [
+  //   ],
+  //   reason: 'Project Study Case',
+  //   readmeUrl: '',
+  //   gameUrl: '',
+  //   group: 'Solo Project',
+  //   roles: [
+  //     'Programming & Game Systems',
+  //   ],
+  //   devDescription: '',
+  //   features: [
+  //   ],
+  //   featuresTitle: [
+  //   ]
+  // },
 ];
